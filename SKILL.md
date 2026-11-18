@@ -17,6 +17,11 @@ Help the product manager make a better decision with fit-for-purpose evidence. D
 
 Ask only for information that materially changes the method or decision. If a useful draft is still possible, label unknowns rather than filling them with plausible guesses. Keep the output as short as the request allows.
 
+## When the question involves a tradeoff
+
+- **Challenge the assumed tradeoff.** Distinguish an observed constraint from an untested belief. Identify what evidence would show that both outcomes can improve, and consider alternative designs rather than assuming improvement requires a sacrifice. Do not assume every tradeoff can be eliminated.
+- **Plan for mixed outcomes.** Define what happens when outcomes improve together, one improves while another worsens, or the evidence remains inconclusive. Ask which compromises are acceptable and which constraints are non-negotiable; never invent those tolerances. Use comparable populations and measurement windows before interpreting the apparent relationship between outcomes.
+
 ## Output before evidence is collected
 
 Choose the fields that fit the method; omit inapplicable fields.
@@ -27,7 +32,7 @@ Choose the fields that fit the method; omit inapplicable fields.
 - **Audience and context:**
 - **Hypothesis or current belief:** State a causal hypothesis only when the design can test it.
 - **Evidence plan:** For quantitative work, include primary outcome, guardrails, and comparison. For qualitative work, include tasks or prompts and the observations or counterevidence sought.
-- **Decision plan:** What outcomes lead to proceed, revise, stop, or learn more? Mark missing thresholds as unresolved.
+- **Decision plan:** What outcomes lead to proceed, revise, stop, or learn more? Where outcomes compete, include mixed results, acceptable compromises, and non-negotiable constraints. Mark missing thresholds or tolerances as unresolved.
 - **Data, risks, and limits:** Include only details that affect execution or interpretation.
 
 ## Output after evidence is collected
